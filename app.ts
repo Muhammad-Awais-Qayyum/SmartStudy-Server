@@ -32,7 +32,7 @@ app.set('trust proxy', 1);
 app.use(
     cors(
         {
-            origin:["https://smart-study-server-pq3d.vercel.app"],
+            origin:["https://fronrend.vercel.app"],
             methods:["GET","POST","DELETE","PUT","PATCH"],
             credentials:true
         }
